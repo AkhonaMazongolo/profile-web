@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="title">
+  <title id="title">Blog milestone placeholder</title>
+  <rect width="1280" height="800" fill="#ffffff"/>
+  <path d="M0 598c204-88 382-102 534-42 204 80 412 62 746-78v322H0z" fill="#227c65"/>
+  <rect x="172" y="132" width="936" height="420" rx="18" fill="#f7f8f3" stroke="#d8ded6" stroke-width="6"/>
+  <circle cx="354" cy="342" r="102" fill="#e0a72f"/>
+  <path d="M304 342l34 34 72-88" fill="none" stroke="#14213d" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="520" y="266" width="396" height="34" rx="8" fill="#14213d"/>
+  <rect x="520" y="342" width="476" height="24" rx="8" fill="#d8ded6"/>
+  <rect x="520" y="394" width="350" height="24" rx="8" fill="#d8ded6"/>
+</svg>

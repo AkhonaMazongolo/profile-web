@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="title">
+  <title id="title">Certificate placeholder</title>
+  <rect width="1280" height="800" fill="#fff"/>
+  <rect x="70" y="70" width="1140" height="660" rx="8" fill="#f7f8f3" stroke="#14213d" stroke-width="16"/>
+  <rect x="160" y="168" width="280" height="28" rx="8" fill="#227c65"/>
+  <rect x="160" y="270" width="640" height="52" rx="8" fill="#14213d"/>
+  <rect x="160" y="374" width="820" height="24" rx="8" fill="#d8ded6"/>
+  <rect x="160" y="426" width="720" height="24" rx="8" fill="#d8ded6"/>
+  <circle cx="1010" cy="548" r="98" fill="#e0a72f"/>
+  <path d="M960 548l34 34 70-84" fill="none" stroke="#14213d" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

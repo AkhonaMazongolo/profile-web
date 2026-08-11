@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="title">
+  <title id="title">Blog video placeholder</title>
+  <rect width="1280" height="800" fill="#14213d"/>
+  <rect x="110" y="110" width="1060" height="580" rx="18" fill="#eef7ef"/>
+  <circle cx="640" cy="400" r="132" fill="#d9583b"/>
+  <path d="M604 328l128 72-128 72z" fill="#ffffff"/>
+  <rect x="180" y="178" width="260" height="30" rx="8" fill="#227c65"/>
+  <rect x="180" y="602" width="740" height="22" rx="8" fill="#d8ded6"/>
+</svg>

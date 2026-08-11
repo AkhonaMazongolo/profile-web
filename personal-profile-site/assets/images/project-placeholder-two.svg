@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title">
+  <title id="title">Project video placeholder two</title>
+  <rect width="1280" height="720" fill="#227c65"/>
+  <rect x="96" y="96" width="1088" height="528" rx="18" fill="#ffffff"/>
+  <rect x="160" y="164" width="250" height="392" rx="12" fill="#e8ede5"/>
+  <rect x="458" y="164" width="662" height="94" rx="12" fill="#14213d"/>
+  <rect x="458" y="294" width="310" height="262" rx="12" fill="#e0a72f"/>
+  <rect x="810" y="294" width="310" height="262" rx="12" fill="#d9583b"/>
+  <path d="M606 364l104 68-104 68z" fill="#fff"/>
+</svg>

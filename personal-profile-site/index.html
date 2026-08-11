@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Personal Profile | Portfolio</title>
+    <meta
+      name="description"
+      content="A personal profile website for showcasing skills, projects, certificates, CV, and application documents."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <span class="brand-mark">P</span>
+        <span id="brandName">Portfolio</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#blog">Blog</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#documents">Documents</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="heroTitle">
+        <div class="hero-copy">
+          <p class="eyebrow" id="roleEyebrow">Personal Portfolio</p>
+          <h1 id="heroTitle">Akhona Mazongolo</h1>
+          <p class="hero-summary" id="heroSummary"></p>
+          <div class="hero-actions">
+            <a class="button primary" id="primaryDocumentLink" href="#documents" download>
+              <span aria-hidden="true">&darr;</span>
+              Download CV
+            </a>
+            <a class="button secondary" id="githubProfileLink" href="#" target="_blank" rel="noreferrer">
+              <span aria-hidden="true">&nearr;</span>
+              GitHub
+            </a>
+          </div>
+        </div>
+        <figure class="portrait-panel">
+          <img id="profilePhoto" src="assets/images/me.png" alt="Profile portrait" />
+        </figure>
+      </section>
+
+      <section class="section band" id="about" aria-labelledby="aboutTitle">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2 id="aboutTitle">Profile</h2>
+        </div>
+        <div class="about-grid">
+          <p id="aboutText"></p>
+          <div class="highlights" id="highlightsList" aria-label="Profile highlights"></div>
+        </div>
+      </section>
+
+      <section class="section" id="skills" aria-labelledby="skillsTitle">
+        <div class="section-heading">
+          <p class="eyebrow">Capabilities</p>
+          <h2 id="skillsTitle">Skills</h2>
+        </div>
+        <div class="skills-grid" id="skillsGrid"></div>
+      </section>
+
+      <section class="section band" id="projects" aria-labelledby="projectsTitle">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2 id="projectsTitle">Projects</h2>
+        </div>
+        <div class="project-grid" id="projectGrid"></div>
+      </section>
+
+      <section class="section" id="blog" aria-labelledby="blogTitle">
+        <div class="section-heading">
+          <p class="eyebrow">Updates</p>
+          <h2 id="blogTitle">Blog</h2>
+        </div> 
+        <div class="blog-grid" id="blogGrid"></div>
+      </section>
+
+      <section class="section band" id="certificates" aria-labelledby="certificatesTitle">
+        <div class="section-heading">
+          <p class="eyebrow">Credentials</p>
+          <h2 id="certificatesTitle">Certificates</h2>
+        </div>
+        <div class="certificate-grid" id="certificateGrid"></div>
+      </section>
+
+      <section class="section" id="documents" aria-labelledby="documentsTitle">
+        <div class="section-heading">
+          <p class="eyebrow">Applications</p>
+          <h2 id="documentsTitle">CV & Documents</h2>
+        </div>
+        <div class="document-grid" id="documentGrid"></div>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contactTitle">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contactTitle">Let's Connect</h2>
+        </div>
+        <div class="contact-panel">
+          <p id="contactIntro"></p>
+          <div class="contact-links" id="contactLinks"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p id="footerText"></p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>

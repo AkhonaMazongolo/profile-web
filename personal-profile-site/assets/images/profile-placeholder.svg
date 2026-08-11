@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Profile photo placeholder</title>
+  <desc id="desc">A clean portrait placeholder for a personal portfolio.</desc>
+  <rect width="800" height="1000" fill="#e8ede5"/>
+  <path d="M0 728c136-75 255-93 356-54 154 59 264 11 444-90v416H0z" fill="#227c65"/>
+  <circle cx="400" cy="333" r="154" fill="#14213d"/>
+  <path d="M178 813c26-148 109-234 222-234s196 86 222 234" fill="#2454a6"/>
+  <circle cx="340" cy="312" r="18" fill="#fff"/>
+  <circle cx="460" cy="312" r="18" fill="#fff"/>
+  <path d="M338 405c42 31 86 31 124 0" fill="none" stroke="#fff" stroke-width="18" stroke-linecap="round"/>
+  <rect x="68" y="70" width="180" height="18" rx="9" fill="#d9583b"/>
+  <rect x="68" y="105" width="260" height="18" rx="9" fill="#e0a72f"/>
+</svg>
